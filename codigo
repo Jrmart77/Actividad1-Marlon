@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Mercantil</title>
+    <link rel="stylesheet" type="text/css"  href="estilos.css">
+    <style> </style>
+</head>
+<body>
+    <div class="registro">
+        <img src="./img/registro M.png" alt="LOGO" width="200px" height="50px">
+    </div>
+    <div class="numero-f">
+        <label for="numero-formato">Número Formato:</label>
+        <input type="text" id="numero-formato" name="numero-formato">
+        </div>
+        <div class="codigo">
+        <label for="codigo">Código:</label>
+        <input type="text" id="codigo" name="codigo">
+        </div>
+    <div class="contenido">
+    <header>
+    <p>Este formato de solicitud es GRATUITO, PROHIBIDO su venta.</p>
+    <h2>Solicitud de Inscripción de Comerciante Individual y Empresa</h2>
+    <p>Señor Registrador Mercantil General de la República</p>
+
+    <div class="nombre">
+    <label for="primer-nombre">Primer Nombre:</label>
+    <input type="text" id="primer-nombre" name="primer-nombre">
+    </div>
+
+    <div class="nombre2">
+        <label for="segundo-nombre">Segundo Nombre:</label>
+        <input type="text" id="segundo-nombre" name="segundo-nombre">
+        </div>
+
+    <div class="nombre3">
+        <label for="otro nombre">Otro Nombre:</label>
+        <input type="text" id="otro nombre" name="otro nombre">
+        </div>
+
+
+    <div class="apellido">
+    <label for="primer-apellido">Primer Apellido:</label>
+    <input type="text" id="primer-apellido" name="primer-apellido">
+    </div>
+   
+    
+    <div class="apellido2">
+    <label for="segundo-apellido">Segundo Apellido:</label>
+    <input type="text" id="segundo-apellido" name="segundo-apellido">
+    </div>
+
+    <div class="apellidoCasada">
+        <label for="apellido-casada"> Apellido Casada:</label>
+        <input type="text" id="apellido-casada" name="apellido-casada">
+        </div>
+
+
+    <div class="form-group">
+    <label for="nacionalidad">Nacionalidad:</label>
+    <select id="nacionalidad" name="nacionalidad">
+                            <option value="">Seleccione una opción</option>
+                            <!-- Agregar opciones de nacionalidad -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="profesion-u-oficio">Profesión u Oficio:</label>
+                        <input type="text" id="profesion-u-oficio" name="profesion-u-oficio">
+                    </div>
+                    <div class="form-group">
+                        <label for="domicilio">Domicilio:</label>
+                        <input type="text" id="domicilio" name="domicilio">
+                    </div>
+                    <div class="form-group">
+                        <label for="residencia">Residencia:</label>
+                        <input type="text" id="residencia" name="residencia">
+                    </div>
+                    <div class="form-group">
+                        <label for="documento-identificacion">Documento de Identificación:</label>
+                        <select id="documento-identificacion" name="documento-identificacion">
+                            <option value="">Seleccione una opción</option>
+                            <option value="pasaporte">Pasaporte</option>
+                            <option value="documento-personal-de-identificacion">Documento Personal de Identificación (DPI)</option>
+                            <!-- Agregar opciones de documento de identificación -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="otro-nombre">Otro Nombre:</label>
+                        <input type="text" id="otro-nombre" name="otro-nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido-casada">Apellido Casada:</label>
+                        <input type="text" id="apellido-casada" name="apellido-casada">
+                    </div>
+                    <div class="form-group">
+                        <label for="nit">NIT:</label>
+                        <input type="text" id="nit" name="nit">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono-y-o-celular">Teléfono y/o Celular:</label>
+                        <input type="text" id="telefono-y-o-celular" name="telefono-y-o-celular">
+                    </div>
+</body>
+</html>
